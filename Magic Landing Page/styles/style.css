@@ -1,0 +1,114 @@
+/* Variables
+
+--nyanza: #d8f3dc;
+--turquoise-green: #b7e4c7;
+--turquoise-green-2: #95d5b2;
+--ocean-green: #74c69d;
+--ocean-green-2: #52b788;
+--illuminating-emerald: #40916c;
+--bottle-green: #2d6a4f;
+--brunswick-green: #1b4332;
+--dark-jungle-green: #081c15;
+*/
+body {
+  background: #081c15;
+  background: linear-gradient(0deg, #081c15 0%, #d8f3dc 100%);
+}
+.navlinks ul {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: space-around;
+}
+.navlinks li {
+  background: wheat;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+.navlinks a {
+  list-style: none;
+  text-decoration: none;
+  color: green;
+}
+.main {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+.section-a .logo {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+.section-a .title {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2em;
+}
+.section-b {
+  padding-top: 75px;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+.section-b .grid {
+  display: flex;
+}
+.section-b .section-2-text {
+  padding-left: 20px;
+  font-size: 1.4em;
+}
+.section-c {
+  padding-top: 75px;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+.section-c-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+}
+.section-c-grid .section-c-image-1 {
+  grid-column-start: 1;
+  grid-column-end: 2 ;
+  grid-row-start: 1 ;
+  grid-row-end: 2 ;
+}
+.section-c-grid .section-c-text-1 {
+  background-color: red;
+  grid-column-start: 2 ;
+  grid-column-end: 3 ;
+}
+.section-c-grid .section-c-image-2 {
+  justify-self: center;
+  grid-column-start: 2;
+  grid-column-end: 3 ;
+  grid-row-start: 2 ;
+  grid-row-end: 3 ;
+}
+.section-c-grid .section-c-text-2 {
+  background-color: orange;
+  grid-column-start: 1;
+  grid-column-end: 2 ;
+  grid-row-start: 2;
+  grid-row-end: 3 ;
+}
+.section-c-grid img {
+  max-width: 300px;
+  justify-self: center;
+}
